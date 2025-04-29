@@ -1,5 +1,5 @@
 package app.comparateurs;
-public interface ComparateurDeChaine {
+public interface ComparateurDeChaines {
     double comparer(String nom1, String nom2);
 }
 
