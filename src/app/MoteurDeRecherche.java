@@ -5,9 +5,14 @@ import app.comparateurs.ComparateurDeNom;
 
 public class MoteurDeRecherche {
     public Nom[] listeDeTousLesResultats;
+    public Nom[] listeDeTousLesCandidats;
 
     public Nom[] rechercher(Nom[] liste, Nom nom) {
         return null; 
+    }
+
+    public Nom[] pretraiter(Nom[] listeDesCandidats){
+        return null;
     }
 
     public void dedupliquer(Nom[] liste) {}
